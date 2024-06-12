@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flex-horizontal {
+  display: flex;
+  flex-direction: row;
+  gap: 1vh;
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+.chat-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.messages-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  max-height: 60vh;
+  overflow-y: scroll;
+  min-height: 60vh;
+  margin-bottom: 5vh;
+  justify-content: center;
+  align-items: center;
+}
